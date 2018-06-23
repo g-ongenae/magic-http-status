@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "dist",
+        "removeComments": true,
+        "isolatedModules": false,
+        "moduleResolution": "node",
+        "typeRoots": ["types"],
+        "types": ["node"],
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "inlineSources": true,
+    },
+    "include": [
+        "./test.ts",
+        "./index.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "status-codes",
+  "version": "1.0.0",
+  "description": "HTTP status codes and messages",
+  "keywords": [
+    "http",
+    "status",
+    "code"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-ongenae/status-codes"
+  },
+  "bugs": {
+    "url": "https://github.com/g-ongenae/status-codes/issues"
+  },
+  "homepage": "https://github.com/g-ongenae/status-codes#readme",
+  "author": {
+    "name": "Guillaume Ongenae",
+    "email": "guillaume.ongenae@gmail.com",
+    "url": "https://g-ongenae.github.io"
+  },
+  "license": "MIT",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "engines": {
+    "node": ">=0.1.22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "cover": "yarn run pretest && nyc --reporter=html ava",
+    "prepublishOnly": "yarn run build",
+    "pretest": "yarn run build",
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "./dist/test.js"
+    ],
+    "sources": [
+      "./test.ts"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "tap": false,
+    "compileEnhancements": false
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.5",
+    "ava": "^0.25.0",
+    "nyc": "^12.0.2",
+    "typescript": "^2.9.2"
+  }
+}
