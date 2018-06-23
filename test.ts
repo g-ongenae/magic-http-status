@@ -12,5 +12,5 @@ test('MESSAGES', (t) => {
 });
 
 test('STATUS', (t) => {
-	t.is(STATUS[200], 'OK');
+    t.is(STATUS[200], 'OK');
 });
