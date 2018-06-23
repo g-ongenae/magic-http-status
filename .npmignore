@@ -1,0 +1,8 @@
+.travis.yml
+index.ts
+test.ts
+tsconfig.json
+yarn.lock
+dist/test.d.ts
+dist/test.js
+dist/test.js.map
