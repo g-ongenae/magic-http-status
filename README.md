@@ -1,5 +1,7 @@
 # HTTP Status Codes and Messages
 
+[![Build Status](https://travis-ci.com/g-ongenae/status-codes.svg?branch=master)](https://travis-ci.com/g-ongenae/status-codes)
+
 ## Install
 
 ```bash
