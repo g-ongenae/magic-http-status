@@ -1,14 +1,14 @@
 # HTTP Status Codes and Messages
 
-[![Build Status](https://travis-ci.com/g-ongenae/status-codes.svg?branch=master)](https://travis-ci.com/g-ongenae/status-codes)
+[![Build Status](https://travis-ci.com/g-ongenae/magic-http-status.svg?branch=master)](https://travis-ci.com/g-ongenae/magic-http-status)
 
 ## Install
 
 ```bash
 # With yarn
-yarn add pkg-name
+yarn add magic-http-status
 # Or with npm
-npm i pkg-name
+npm i magic-http-status
 ```
 
 ## Why
@@ -18,7 +18,7 @@ To easily prevent using [magic numbers](https://palantir.github.io/tslint/rules/
 ## Example
 
 ```ts
-import { MESSAGES, CODES } from 'pkg-name';
+import { MESSAGES, CODES } from 'magic-http-status';
 
 response
     .status(CODES.OK)

@@ -1,5 +1,5 @@
 {
-  "name": "status-codes",
+  "name": "magic-http-status",
   "version": "1.0.0",
   "description": "HTTP status codes and messages",
   "keywords": [
@@ -9,12 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/g-ongenae/status-codes"
+    "url": "https://github.com/g-ongenae/magic-http-status"
   },
   "bugs": {
-    "url": "https://github.com/g-ongenae/status-codes/issues"
+    "url": "https://github.com/g-ongenae/magic-http-status/issues"
   },
-  "homepage": "https://github.com/g-ongenae/status-codes#readme",
+  "homepage": "https://github.com/g-ongenae/magic-http-status#readme",
   "author": {
     "name": "Guillaume Ongenae",
     "email": "guillaume.ongenae@gmail.com",
