@@ -1,6 +1,6 @@
 # HTTP Status Codes and Messages
 
-[![Build Status](https://travis-ci.com/g-ongenae/magic-http-status.svg?branch=master)](https://travis-ci.com/g-ongenae/magic-http-status)
+[![Build Status](https://travis-ci.com/g-ongenae/magic-http-status.svg?branch=master)](https://travis-ci.com/g-ongenae/magic-http-status) [![Greenkeeper badge](https://badges.greenkeeper.io/g-ongenae/magic-http-status.svg)](https://greenkeeper.io/)
 
 ## Install
 
