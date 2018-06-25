@@ -1,6 +1,6 @@
 {
   "name": "magic-http-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP status codes and messages",
   "keywords": [
     "http",
