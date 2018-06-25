@@ -1,7 +1,5 @@
 import test from 'ava';
-import status from './';
-
-const { CODES, MESSAGES, STATUS } = status;
+import { CODES, MESSAGES, STATUS } from './';
 
 test('CODES', (t) => {
     t.is(CODES.OK, 200);

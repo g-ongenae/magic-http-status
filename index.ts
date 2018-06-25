@@ -14,8 +14,6 @@ function invertGeneric (object, cb) {
     return newObject;
 }
 
-export default {
-    CODES: invertGeneric(STATUS_CODES, (k) => Number(k)) as { [key: string]: number; },
-    MESSAGES: invertGeneric(STATUS_CODES, (k) => STATUS_CODES[k]) as { [key: string]: string; },
-    STATUS: STATUS_CODES as { [key: number]: string; },
-};
+export const CODES = invertGeneric(STATUS_CODES, (k) => Number(k)) as { [key: string]: number; };
+export const MESSAGES = invertGeneric(STATUS_CODES, (k) => STATUS_CODES[k]) as { [key: string]: string; };
+export const STATUS = STATUS_CODES as { [key: number]: string; };
