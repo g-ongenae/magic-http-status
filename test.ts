@@ -1,14 +1,14 @@
 import test from 'ava';
-import { CODES, MESSAGES, STATUS } from './';
+import { HttpCodes, HttpMessage, HttpStatus } from './';
 
 test('CODES', (t) => {
-    t.is(CODES.OK, 200);
+    t.is(HttpCodes.OK, 200 as HttpCodes);
 });
 
 test('MESSAGES', (t) => {
-    t.is(MESSAGES.IM_USED, 'IM Used');
+    t.is(HttpMessage.IM_USED, 'IM Used');
 });
 
 test('STATUS', (t) => {
-    t.is(STATUS[200], 'OK');
+    t.is(HttpStatus[200], 'OK');
 });

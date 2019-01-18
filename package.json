@@ -32,7 +32,7 @@
     "node": ">=0.1.22"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rm -fr dist/ index.ts; node generate.js; tsc",
     "cover": "yarn run pretest && nyc --reporter=html ava",
     "prepublishOnly": "yarn run build",
     "pretest": "yarn run build",
