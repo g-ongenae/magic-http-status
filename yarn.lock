@@ -133,9 +133,10 @@
     pretty-ms "^0.2.1"
     text-table "^0.2.0"
 
-"@types/node@^10.3.5":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.3.5.tgz#8423cdf6e6fb83433e489900d7600d3b61c8260c"
+"@types/node@^12.12.15":
+  version "12.12.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.15.tgz#8dfb6ce22fedd469128137640a3aa8f17415422f"
+  integrity sha512-Pv+vWicyFd07Hw/SmNnTUguqrHgDfMtjabvD9sQyxeqbpCEg8CmViLBaVPHtNsoBgZECrRf5/pgV6FJIBrGSjw==
 
 abbrev@1:
   version "1.1.1"
