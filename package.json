@@ -52,7 +52,7 @@
     "compileEnhancements": false
   },
   "devDependencies": {
-    "@types/node": "^11.9.0",
+    "@types/node": "^13.13.3",
     "ava": "^0.25.0",
     "nyc": "^13.2.0",
     "typescript": "^2.9.2"
