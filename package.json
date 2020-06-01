@@ -54,7 +54,7 @@
   "devDependencies": {
     "@types/node": "^11.9.0",
     "ava": "^0.25.0",
-    "nyc": "^13.2.0",
+    "nyc": "^15.1.0",
     "typescript": "^2.9.2"
   }
 }
